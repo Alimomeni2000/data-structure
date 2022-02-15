@@ -140,7 +140,7 @@ insertAfter(head->next, 8);
    cout<<"\nThe doubly linked list is: \n";
    display();
     deleteNode_by_key(&head,9);
-//    delete_by_nodenumber( head->next->next);
+
    cout<<"\nThe doubly linked list is key 9: \n";
 
    display();
