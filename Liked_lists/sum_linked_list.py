@@ -16,9 +16,9 @@ c.next = d
 d.next = e
 
 def sumList(head):
-    # if head == None:
-    #     return 0
-    # return head.val+ sumList(head.next)
+    if head == None:
+        return 0
+    return head.val+ sumList(head.next)
 
     # num = 0
     # current = head
