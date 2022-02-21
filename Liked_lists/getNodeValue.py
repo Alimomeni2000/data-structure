@@ -1,4 +1,5 @@
 from pydantic import NoneIsAllowedError
+from sqlalchemy import null
 
 
 class Node:
@@ -25,6 +26,7 @@ def getNodeValue(head, index):
         else:
             index -=1
             current= current.next
+    return None
     # if head == None:
     #     return None
     # if index == 0:
