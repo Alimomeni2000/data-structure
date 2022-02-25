@@ -30,7 +30,7 @@ def reverseList(head,prev = None):
         return prev
     next = head.next
     head.next = prev
-    return reverseList(next, head)
+    return reverseList(next , head)
 
 
 print(reverseList(a).val)
